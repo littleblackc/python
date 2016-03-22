@@ -1,0 +1,16 @@
+#tuple study
+
+print "tuple study"
+
+t = (1,2)
+print "the tuple length:",len(t)
+t = (1,)
+print "the tuple t is ",t
+
+print "the tuple can not change length,but use insert list in the tuple"
+
+t = (1,[2])
+print "the can change length tuple like this",t
+
+t[1].append(3)
+print "after add t[1].append(3)",t

@@ -1,0 +1,11 @@
+# -*- coding:utf-8  -*-
+
+#output
+print "1+2=",3
+#intput
+name=input("please input number: ")
+print "the numuber is ",name
+name =raw_input ("please input the name:")
+print ("input name : "),name
+
+

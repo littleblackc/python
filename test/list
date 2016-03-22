@@ -1,0 +1,15 @@
+#-*-coding:utf-8 -*-
+print "test list"
+list = ["a","b","c"]
+length = len(list)
+print "the list length is ",length
+print "the first body is ",list[0]
+print "the last body is ",list[-1]
+list.append("d")
+print "add new body in last list",list[-1]
+list.insert(1,"aa")
+print "the second body is ",list[1]
+list.pop()
+print "delete the last one,",list
+list.pop(1)
+print "delete the second one,",list
