@@ -1,0 +1,23 @@
+
+def add(a,b):
+	return a+b
+
+def remove(a,b):
+	return a-b
+
+def pop():
+	pass
+
+
+def mix_add(a,b):
+	a = a+1
+	b = b+2
+	return a,b
+
+print "1+2",add(1,2)
+print "Non Function:",pop()
+
+c = mix_add(1,2)
+print "tuple", c
+
+print c[0],c[1]

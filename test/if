@@ -1,0 +1,14 @@
+#if study
+
+print "study if"
+
+age = input("pls input you age")
+
+if(age <20):
+	print "Child"
+elif (age >= 20  and age < 50):
+	print "Adult"
+elif (age >=50 and age < 100):
+	print "Old"
+else :
+ 	print "too old"

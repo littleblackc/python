@@ -1,0 +1,16 @@
+#study for
+
+print "study for"
+
+names = ["a","b","c"]
+names
+for name in names:
+	print name
+
+for n in range(3):
+	print n
+n=0
+while n < 3:
+	n=n+1
+	print "while ",n
+

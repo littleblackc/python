@@ -1,0 +1,9 @@
+#study dict
+
+print "dict"
+
+d = {"a":1,"b":2,"c":3}
+print "find value by []:",d["a"]
+print "find value by get:",d.get("a")
+print "find value by get,but if the key is invalidate:",d.get("d")
+
