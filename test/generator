@@ -1,0 +1,9 @@
+
+print "study generator"
+
+l = (x*x for x in range(10))
+
+print l.next()
+print l.next()
+print l.next()
+print l.next()

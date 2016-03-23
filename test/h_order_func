@@ -1,0 +1,19 @@
+print "highter_order_function"
+
+def add(a,b):	
+	return	a+b
+
+l = add
+
+print "l(1,2)",l(1,2)
+
+def abc(a):
+	if a >= 0:
+		return a
+	else:
+		return -a
+
+def mix(a,b,c):
+	return c(a)+c(b)
+
+print "mix(-3,-2,abc)",mix(-3,-2,abc)

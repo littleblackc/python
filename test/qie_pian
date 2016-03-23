@@ -1,0 +1,7 @@
+
+print "study qie pian"
+
+l = range(100)
+
+print "l[10]=",l[:10]
+

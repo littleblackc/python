@@ -1,0 +1,7 @@
+
+print "study die_dai"
+
+from collections import Iterable
+isinstance("abc",Iterable)
+
+print "isinstance(\"abc\",Iterable)",isinstance("abc",Iterable)
