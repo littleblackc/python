@@ -1,0 +1,7 @@
+print "study sort"
+
+x = [1,5,3,7,11,22,0,9]
+print x
+x = sorted(x)
+
+print "after sort",x

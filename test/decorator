@@ -1,0 +1,14 @@
+
+print "study decorator"
+
+
+def log(func):
+	def wrapper(*args,**kw):
+		print "call %s():"% func._name_
+		return func(*args,**kw)
+	return wrapper
+@log
+def now():
+	print "2016-3-24"
+f = now()
+print f()
